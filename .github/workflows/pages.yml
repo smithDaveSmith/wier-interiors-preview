@@ -1,6 +1,8 @@
 name: Deploy Weir Interiors website
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
