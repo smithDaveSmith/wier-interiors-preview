@@ -1,0 +1,3 @@
+[build]
+  command = "python scripts/build-pages.py && python scripts/verify-site.py"
+  publish = "dist"
